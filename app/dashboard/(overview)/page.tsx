@@ -1,9 +1,8 @@
 import React from "react";
 import {lusitana} from "@/app/ui/fonts";
-import CardWrapper, {Card} from "../../ui/dashboard/cards";
+import CardWrapper from "../../ui/dashboard/cards";
 import RevenueChart from "../../ui/dashboard/revenue-chart";
 import LatestInvoices from "../../ui/dashboard/latest-invoices";
-import {fetchCardData, fetchLatestInvoices} from "../../lib/data";
 import {Suspense} from "react";
 import {
   CardsSkeleton,
